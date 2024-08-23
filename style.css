@@ -40,6 +40,7 @@ button{
     border-radius: 20px;
     align-items: end;
     padding: 1em;
+    background-color: rgba(255, 255, 255, 0.123);
 }
 
 .black-box {
