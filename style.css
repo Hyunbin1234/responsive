@@ -21,7 +21,7 @@ body {
 }
 
 button{
-    background-color: rgb(255, 251, 251);
+     background-color: rgb(255, 251, 251);
      color: rgb(0, 0, 0);
      border: none;
      padding: 12px 40px;
@@ -35,7 +35,7 @@ button{
      border-style: none;
 }
 .box{
-    gap: 20px;
+    gap: 10px;
     backdrop-filter: blur(30px);
     border-radius: 20px;
     align-items: end;
@@ -44,7 +44,7 @@ button{
 }
 
 .black-box {
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     display: flex;
     padding: 60px;
     flex-direction: row;
@@ -53,10 +53,18 @@ button{
     border-bottom: 60%;
 }
 
-
-@media (max-width:500px){
+@media (max-width:800px){
+     body{
+        padding: 0;
+        background-size: cover;
+        align-items: center;
+     }
     .black-box{
         display: flex;
         flex-direction: column;
+    }
+    .hero{
+        margin-left: 80px;
+        align-items: center;
     }
 }
